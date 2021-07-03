@@ -1,0 +1,19 @@
+install rasp Pi OS: I manually installed from https://www.raspberrypi.org/software/operating-systems/
+Raspberry Pi OS with desktop and recommended software
+Release date: May 7th 2021
+Kernel version: 5.10
+Size: 2,867MB
+
+pip3 install opencv-python
+sudo apt-get install libatlas-base-dev
+
+run with
+python3 hud_test.py
+
+stop with
+ctrl+c
+
+for screen recording use
+vokoscreen
+sudo apt-get install vokoscreen -y
+
